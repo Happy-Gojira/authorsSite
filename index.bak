@@ -1,0 +1,8 @@
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+ <?php echo '<p>Welcome to the new SALS Member Library Directory web site in development</p>'; ?> 
+ </body>
+</html> 

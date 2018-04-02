@@ -1,0 +1,19 @@
+td {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000000;}
+.td_wh {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #FFFFFF;}
+
+.td1L {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #0000FF; text-decoration: underline}
+a.td1L:hover {  font-size: 14px; color: #FF0000 ; text-decoration: underline}
+
+.whL {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #FFFFFF; font-weight: bold; text-decoration: underline}
+a.whL:hover {  font-size: 14px; color: #FFFFFF ; font-weight: bold; text-decoration: underline}
+.big_bl {  font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #000000}
+.big_wh {  font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #FFFFFF}
+
+body { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000000; background-color: #ffffff}
+.tdsmall { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; }
+.red { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #FF0000}
+
+td.shadow-right { 
+    width: 9px;
+    background-image: url(/images/shadow-right.jpg)
+  }
