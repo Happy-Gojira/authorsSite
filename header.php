@@ -25,7 +25,7 @@ break;
 //  End -->
 </script>
 
-<link rel="stylesheet" href="http://salsblog.sals.edu/wp-content/themes/default/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 <link rel="alternate" type="application/rss+xml" title=" RSS Feed" href="http://salsblog.sals.edu/index.php/feed/" />
 <link rel="pingback" href="http://salsblog.sals.edu/xmlrpc.php" />
 
@@ -34,10 +34,10 @@ break;
 	and not in the wp-layout.css file. If you prefer to use only CSS for colors and what
 	not, then go right ahead and delete the following lines, and the image files. */
 		
-	body { background: url("http://salsblog.sals.edu/wp-content/themes/default/images/kubrickbgcolor.jpg"); }	
-	#page { background: url("http://salsblog.sals.edu/wp-content/themes/default/images/kubrickbgwide.jpg") repeat-y top; border: none; } 
-	#header { background: url("http://salsblog.sals.edu/wp-content/themes/default/images/kubrickheader.jpg") no-repeat bottom center; }
-	#footer { background: url("http://salsblog.sals.edu/wp-content/themes/default/images/kubrickfooter.jpg") no-repeat bottom; border: none;} 
+	body { background: url("/images/kubrickbgcolor.jpg"); }	
+	#page { background: url("/images/kubrickbgwide.jpg") repeat-y top; border: none; } 
+	#header { background: url("/images/kubrickheader.jpg") no-repeat bottom center; }
+	#footer { background: url("/images/kubrickfooter.jpg") no-repeat bottom; border: none;} 
 
 
 
@@ -74,7 +74,7 @@ break;
 	directory. Dimensions should be at least 760px x 200px. Anything above that will
 	get cropped off of the image. */
 
-	#headerimg { background: url('http://salsblog.sals.edu/wp-content/themes/default/images/personalheader.jpg') no-repeat top;}
+	#headerimg { background: url('/images/personalheader.jpg') no-repeat top;}
 	
 </style>
 
@@ -133,7 +133,7 @@ select { width:auto }
 <div id="header">
 	<div id="headerimg">
 
-	<a href="/index.php"><img src="http://salsblog.sals.edu/wp-content/themes/default/images/clear.gif" width="720" height="190"></a></div>
+	<a href="/index.php"><img src="/images/clear.gif" width="720" height="190"></a></div>
 
 </div>
 <hr />

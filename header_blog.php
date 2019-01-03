@@ -25,7 +25,7 @@ break;
 //  End -->
 </script>
 
-<link rel="stylesheet" href="http://salsblog.sals.edu/wp-content/themes/default/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 <link rel="alternate" type="application/rss+xml" title=" RSS Feed" href="http://salsblog.sals.edu/index.php/feed/" />
 <link rel="pingback" href="http://salsblog.sals.edu/xmlrpc.php" />
 
@@ -33,20 +33,20 @@ break;
 /*	To accomodate differing install paths of WordPress, images are referred only here,
 	and not in the wp-layout.css file. If you prefer to use only CSS for colors and what
 	not, then go right ahead and delete the following lines, and the image files. */
-		
-	body { background: url("http://salsblog.sals.edu/wp-content/themes/default/images/kubrickbgcolor.jpg"); }	
-	#page { background: url("http://salsblog.sals.edu/wp-content/themes/default/images/kubrickbgwide.jpg") repeat-y top; border: none; } 
-	#header { background: url("http://salsblog.sals.edu/wp-content/themes/default/images/kubrickheader.jpg") no-repeat bottom center; }
-	#footer { background: url("http://salsblog.sals.edu/wp-content/themes/default/images/kubrickfooter.jpg") no-repeat bottom; border: none;}
-	
+
+	body { background: url("/images/kubrickbgcolor.jpg"); }
+	#page { background: url("/images/kubrickbgwide.jpg") repeat-y top; border: none; }
+	#header { background: url("/images/kubrickheader.jpg") no-repeat bottom center; }
+	#footer { background: url("/images/kubrickfooter.jpg") no-repeat bottom; border: none;}
+
 	.widecolumn2 .entry p {
 	font-size: 1.05em;
 	}
-	
+
 .widecolumn2 .entry ul {
 	font-size: 12px;
 	}
-	
+
 .directory {
 	font-size: 10px;
 	}
@@ -56,26 +56,42 @@ break;
 	margin: 5px 0 0 35px;
 	width: 690px;
 	}
+  .counties{
+    width: 50%;
+    display: inline;
+    float: left;
+  }
+  ul.list{
+    width: 100%;
+  }
+  ul.list li{
+    display:inline-block;
+    width: 155px;
+    font-size: 10px;
+  }
+  table {
+    clear: both;
+  }
 	td {
 	font-size: 12px;
 	}
 
 /*	Because the template is slightly different, size-wise, with images, this needs to be set here
 	If you don't want to use the template's images, you can also delete the following two lines. */
-		
+
 	#header 	{ margin: 0 !important; margin: 0 0 0 1px; padding: 1px; height: 198px; width: 758px; }
-	#headerimg 	{ margin: 7px 9px 0; height: 192px; width: 740px; } 
+	#headerimg 	{ margin: 7px 9px 0; height: 192px; width: 740px; }
 
 /* 	To ease the insertion of a personal header image, I have done it in such a way,
 	that you simply drop in an image called 'personalheader.jpg' into your /images/
 	directory. Dimensions should be at least 760px x 200px. Anything above that will
 	get cropped off of the image. */
 
-	#headerimg { background: url('http://salsblog.sals.edu/wp-content/themes/default/images/personalheader.jpg') no-repeat top;}
-	
+	#headerimg { background: url('/images/personalheader.jpg') no-repeat top;}
+
 </style>
 
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://salsblog.sals.edu/xmlrpc.php?rsd" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://salsblog.sals.edu/xmlrpc.php?rsd" />
 
 	<!-- Added by EventCalendar plugin. Version 3.0.4 -->
 	<script type='text/javascript' src='http://salsblog.sals.edu/wp-content/plugins/eventcalendar3/xmlhttprequest.js'></script>
@@ -130,7 +146,7 @@ select { width:auto }
 <div id="header">
 	<div id="headerimg">
 
-	<a href="http://salsblog.sals.edu"><img src="http://salsblog.sals.edu/wp-content/themes/default/images/clear.gif" width="720" height="190"></a></div>
+	<a href="http://salsblog.sals.edu"><img src="/images/clear.gif" width="720" height="190"></a></div>
 
 </div>
 <hr />
