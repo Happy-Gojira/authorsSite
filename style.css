@@ -18,6 +18,13 @@ Text Domain: kubrick
 	http://www.opensource.org/licenses/gpl-license.php
 
 */
+/* New additions flexing*/
+.wrapper{
+	width: 100%;
+}
+.container{
+	display: flex;
+}
 
 
 
@@ -160,7 +167,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	font-weight: bold;
 }
 
-.commentlist li .avatar { 
+.commentlist li .avatar {
 	float: right;
 	border: 1px solid #eee;
 	padding: 2px;
@@ -517,10 +524,10 @@ select {
 	padding: 2px;
 	}
 #respond:after {
-		content: "."; 
-	    display: block; 
-	    height: 0; 
-	    clear: both; 
+		content: ".";
+	    display: block;
+	    height: 0;
+	    clear: both;
 	    visibility: hidden;
 	}
 #commentform #submit {
@@ -547,7 +554,7 @@ select {
 	padding: 5px 5px 10px 10px;
 	list-style: none;
 	}
-.commentlist li ul li { 
+.commentlist li ul li {
 	margin-right: -5px;
 	margin-left: 10px;
 }
@@ -654,7 +661,7 @@ blockquote cite {
 .hidden {
 	display: none;
 	}
-	
+
 .screen-reader-text {
      position: absolute;
      left: -1000em;

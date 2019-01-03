@@ -11,11 +11,11 @@
 <p>Authors who live in New York's Hamilton, Saratoga, Warren or Washington Counties, year round or seasonally, we need your help. If you aren't listed here, <A HREF="mailto:authors@sals.edu">email us</a> your name, county of residence, and the title of one book in our <a href="http://catalog.sals.edu">library catalog, </a>and we'll add you to this list.
 </p>
 </div>
-<div class="widecolumn2">
+<div class="wrapper">
 
 
 
-<div class='directory'>
+<div class='container'>
 
 	<div class="counties">
 		<h2>Hamilton County</h2>
@@ -51,6 +51,7 @@
 				<li><a href="http://pac.sals.edu/polaris/Search/searchresults.aspx?type=Keyword&term=clemente,maribeth&by=AU">Maribeth Clemente</a></li>
 				<li><a href="http://pac.sals.edu/polaris/Search/searchresults.aspx?type=Keyword&term=crosman,coral&by=AU">Coral Crosman</a></li>
 				<li><a href="http://pac.sals.edu/polaris/Search/searchresults.aspx?type=Keyword&term=cuffe-perez,mary&by=AU">Mary Cuffe-Perez</a></li>
+				<li><a href="http://pac.sals.edu/polaris/search/searchresults.aspx?type=Keyword&term=Devine,Eric&by=AU">Eric Devine</a></li>
 				<li><a href="http://pac.sals.edu/polaris/Search/searchresults.aspx?type=Keyword&term=evans,s. annetje&by=AU">S. Annetje Evans</a></li>
 				<li><a href="http://pac.sals.edu/polaris/Search/searchresults.aspx?type=Keyword&term=farra,ron&by=AU">Ron Farra</a></li>
 				<li><a href="http://pac.sals.edu/polaris/Search/searchresults.aspx?type=Keyword&term=feulner,ron&by=AU">Ron Feulner</a></li>
@@ -186,7 +187,7 @@
 			</div>
 		</div>
 	</div>
-	</div>
+
 	</div>
 	</div>
 

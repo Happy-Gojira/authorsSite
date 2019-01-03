@@ -67,7 +67,7 @@ break;
   ul.list li{
     display:inline-block;
     width: 155px;
-    font-size: 10px;
+    font-size: 1em;
   }
   table {
     clear: both;
